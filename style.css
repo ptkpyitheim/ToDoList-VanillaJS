@@ -1,0 +1,122 @@
+html {
+
+}
+
+body {
+  background-image: url(images/background-space.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+  color: white;
+}
+
+.container-fluid {
+  margin-top: 50px;
+}
+
+
+#title {
+  font-family: 'Pacifico', cursive;
+}
+
+#second-text {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Abel', sans-serif;
+}
+
+.header {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 600px;
+}
+
+.text-header {
+  border-top: 1px solid white;
+  padding-top: 30px;
+  border-radius: 60%;
+}
+
+#form {
+  display: flex;
+}
+
+.form-control {
+  outline: none;
+}
+
+.header #new-todo-form {
+  width: 500px;
+}
+
+.header #new-todo-form #newTitle {
+  float: left;
+  width: 450px;
+  height: 32px;
+}
+
+.header #new-todo-form #add-button {
+  float: right;
+}
+
+
+#input-form-section {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#input-form-section input {
+  height: 32px;
+}
+
+
+/* Todo List Styling */
+
+.todo #todo-text {
+  margin-left: 8px;
+}
+
+.todo {
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom:1px solid #ddd;
+}
+
+.todo .close {
+  color: white;
+  opacity: 0.5;
+}
+
+li.todo:last-child{
+  border-bottom:none;
+}
+
+.todos .completed {
+  color: grey;
+}
+
+.todos .complete {
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Footer photo credit styling */
+
+.photo-credit {
+  position: absolute;
+  padding-right: 5px;
+  right: 0;
+  top: 0;
+}
+
+.photo-credit a {
+  font-size: 0.4em;
+  color: grey;
+}
+
+.photo-credit a:hover {
+  text-decoration: none;
+  color: white;
+}

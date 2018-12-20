@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- Head -->
+<head>
+
+    <meta name="description" content="Create your to do list!" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico" rel="stylesheet">
+
+    <title> My To Do Web App </title>
+</head>
+
+
+<!-- Body -->
+<body>
+
+
+  <div class="container-fluid">
+
+    <div class="row justify-content-center">
+
+      <div class="header">
+
+        <div class="text-header">
+          <h1 class="text-center" id="title">My To-Do List</h1>
+          <p class="lead text-center" id="second-text">Do not procrastinate. Ever</p>
+        </div>
+
+        <div class="container">
+          <div class="row" id="form">
+              <form id="new-todo-form">
+                <input id="newTitle" type="text" class="form-control" autocomplete="off" placeholder="I need to...">
+                <button id="add-button" type="submit" class="btn btn-primary btn-sm">Add</button>
+              </form>
+          </div>
+
+        </div>
+
+
+      </div> <!-- End of header-->
+
+    </div> <!--End of row justify center-->
+
+
+
+    <div class="row justify-content-center">
+
+      <div class="todos">
+
+        <hr>
+        <ul id="todos" class="list-unstyled">
+
+          <!-- Below is the default testing list of todo
+          <li id="1234" class="todo">
+
+              <input type="checkbox" class="check" value="" />
+              <span id="todo-text">Clean house </span>
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </li>
+          -->
+
+        </ul>
+
+     </div> <!-- Entire class of todo -->
+
+   </div> <!-- Row justify content center section -->
+
+
+
+  </div> <!-- For entire container -->
+
+
+  <div class="photo-credit">
+    <a href="https://unsplash.com/photos/f2tUvySJYr4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"
+    id="credit">Photo by Yong Chuan on Unsplash</a>
+  </div>
+
+
+  <script src="main.js"> </script>
+</body>
+
+
+</html>
